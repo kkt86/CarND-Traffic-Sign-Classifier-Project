@@ -56,3 +56,7 @@ Follow the instructions in the `Traffic_Sign_Classifier.ipynb` notebook and writ
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
+## Run docker container with latest Udacity image
+> docker build -t udacity-self-driving-car .
+> docker run -it --memory=10g -p 8888:8888 -p 6006:6006 -v "$(pwd)":/src --name udacity udacity-self-driving-car /bin/bash
+> source activate carnd-term1
