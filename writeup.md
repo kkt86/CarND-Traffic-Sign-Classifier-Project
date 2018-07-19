@@ -123,8 +123,8 @@ The usage of the LeNet architecture has been justified by its already very good 
 
 In order to test our model on a new dataset, we selected 6 new images, downloaded from internet:
 
-[image5]: ./plots/test_images.png
-![][image5]
+[image6]: ./plots/test_images.png
+![][image6]
 
 Note that we have included an image, not present in the original datasets.
 
@@ -143,7 +143,7 @@ We observe that the "Sharp turn left" sign has been classified as "Yield", as it
 
 Finally, we provide the top 5 prediction probabilities in the following image:
 
-[image6]: ./plots/signs_probabilities.png
-![][image6]
+[image7]: ./plots/signs_probabilities.png
+![][image7]
 
 
